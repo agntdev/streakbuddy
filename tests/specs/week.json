@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/week",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Show a weekly summary of habit progress"
+            }
+          }
+        ],
+        "send": {
+          "text": "/week"
+        }
+      }
+    ]
+  }
+]
